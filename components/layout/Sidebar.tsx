@@ -124,7 +124,7 @@ export default function Sidebar({ isOpen = false, onClose }: SidebarProps) {
                 : "text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             }`}
           >
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-medium text-sm shadow-lg mr-3">
+            <div className="w-8 h-8 rounded-full  flex items-center justify-center text-white font-medium text-sm shadow-lg mr-3">
               A
             </div>
             <span className="flex-1 text-left">Admin</span>
